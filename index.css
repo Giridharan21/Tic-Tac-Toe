@@ -1,0 +1,34 @@
+body{
+text-align:center;
+}
+button::selection{
+	background-color:white;
+	color:teal;
+}
+table,td{
+	border:1px solid white;
+	
+}
+table,h3{
+	margin:50px auto;
+}
+td{
+	background:rgba(0,128,128,.5);
+	text-align:center;
+	width:50px;
+	height:50px;
+	font-size:20px;
+}
+td:hover{
+	border:1px solid black;
+}
+button{
+	padding:5px;
+	text-align:center;
+	margin:10px;
+	background:white;
+}
+button:hover{
+	background:teal;
+	color:white;
+}
