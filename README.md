@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-Tic Tac Toe with variable length board
+Two player Tic Tac Toe with variable length board
