@@ -1,5 +1,10 @@
 body{
 text-align:center;
+
+}
+h3{
+	color:skyblue;
+	display:inline;
 }
 button::selection{
 	background-color:white;
@@ -27,8 +32,29 @@ button{
 	text-align:center;
 	margin:10px;
 	background:white;
+	color:teal;
 }
 button:hover{
 	background:teal;
 	color:white;
+}
+
+/* style for number of rows div */\
+
+button{
+	padding:5px;
+	text-align:center;
+	margin:10px;
+	background:white;
+}
+input{
+	padding:5px;
+}
+button:hover{
+	background:teal;
+	color:white;
+}
+*::selection{
+	background-color:orange;
+	color:teal;
 }
