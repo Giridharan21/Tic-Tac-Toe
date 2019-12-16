@@ -68,7 +68,7 @@ function checkTable(){
 	}
 	if(dia1===numOfRows||dia2===numOfRows) {h3.innerHTML="X wins!!! Restarting game ";setTimeout(restart,3000);}
 	else if(dia1===-numOfRows||dia2===-numOfRows) {h3.innerHTML="O wins!!! Restarting game ";setTimeout(restart,3000);}
-	if(count==9){
+	if(count==len){
 		h3.innerHTML="Match draw !!! Restarting game "; setTimeout(restart,3000);
 	}
 }
